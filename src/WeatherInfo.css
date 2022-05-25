@@ -1,0 +1,8 @@
+li {
+  list-style: none;
+}
+
+#weather-icon {
+  width: 150px;
+  height: 150px;
+}
