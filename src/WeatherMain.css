@@ -1,0 +1,63 @@
+.WeatherMain {
+  position: relative;
+  left: 10px;
+  bottom: -1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.WeatherMain #main-temp {
+  text-transform: capitalize;
+  position: relative;
+  font-size: 80px;
+}
+
+.WeatherMain #celcius-temp {
+  font-size: 15px;
+  position: relative;
+  left: 10px;
+  bottom: 12px;
+  margin: 0 auto;
+  cursor: default;
+  color: #212529;
+}
+
+.WeatherMain #fahrenheit-temp {
+  font-size: 15px;
+  position: relative;
+  bottom: 12px;
+  left: 15px;
+  margin: 0 auto;
+  cursor: default;
+  color: #212529;
+}
+
+.WeatherMain #weather-icon {
+  position: relative;
+  left: 150px;
+  bottom: 100px;
+  width: 100px;
+}
+
+.WeatherMain .location-pin {
+  color: red;
+  position: relative;
+  left: 10px;
+  top: 15px;
+  font-size: 25px;
+}
+
+.WeatherMain .location-pin:hover {
+  color: gray;
+}
+
+.WeatherMain .search-btn {
+  position: relative;
+  top: 10px;
+}
