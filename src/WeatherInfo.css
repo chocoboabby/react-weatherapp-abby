@@ -1,15 +1,68 @@
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 li {
   list-style: none;
 }
 
-#weather-icon {
-  width: 150px;
-  height: 150px;
+.WeatherInfo .container {
+  text-transform: capitalize;
+  position: relative;
+  top: 30px;
 }
 
-.WeatherMain #city-name {
+.WeatherInfo #main-temp {
+  text-transform: capitalize;
+  font-size: 80px;
+}
+
+.WeatherInfo #weather-icon {
+  position: relative;
+  left: 160px;
+  bottom: 112px;
+  width: 100px;
+}
+
+.WeatherInfo #city-name {
   text-transform: capitalize;
   position: relative;
   bottom: -5px;
+  font-size: 30px;
+}
+
+.WeatherInfo #celcius-temp {
+  font-size: 15px;
+  position: relative;
+  left: 10px;
+  bottom: 12px;
+  margin: 0 auto;
+  cursor: default;
+  color: #212529;
+}
+
+.WeatherInfo #fahrenheit-temp {
+  font-size: 15px;
+  position: relative;
+  bottom: 12px;
+  left: 15px;
+  margin: 0 auto;
+  cursor: default;
+  color: #212529;
+}
+
+.WeatherInfo #date-time {
   font-size: 20px;
+}
+
+.WeatherInfo #weather-desc {
+  font-size: 20px;
+  position: relative;
+  bottom: 90px;
+  left: 453px;
+  margin: 0 auto;
 }

@@ -7,7 +7,7 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
       <div className="container">
         <div className="row">
-          <div className="col-7">
+          <div className="col-4">
             <h1>
               <span id="main-temp">{Math.round(props.data.temperature)}</span>
               <span>
@@ -25,7 +25,7 @@ export default function WeatherInfo(props) {
               alt={props.data.icondescription}
             />
           </div>
-          <div className="col-5">
+          <div className="col-8" id="date-time">
             <ul>
               <li id="city-name">
                 {props.data.city}, {props.data.country}
@@ -40,9 +40,9 @@ export default function WeatherInfo(props) {
           </div>
         </div>
         <div className="row">
-          <div className="col-7">test</div>
-          <div className="col-5"></div>
-          <ul>
+          <div className="col-4"></div>
+          <div className="col-8"></div>
+          <ul id="weather-desc">
             <li id="feelslike">
               Feels like: {Math.round(props.data.feelslike)}°C
             </li>

@@ -47,7 +47,6 @@ export default function WeatherMain(props) {
             id="city-input"
             onChange={handleCityChange}
           />
-          <br />
           <input
             type="submit"
             value="Search"
