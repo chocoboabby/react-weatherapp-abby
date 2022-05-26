@@ -13,7 +13,7 @@ export default function App() {
         </div>
         <div>
           <a
-            href="https://github.com/chocoboabby/abbyreact-weather-app"
+            href="https://github.com/chocoboabby/react-weatherapp-abby"
             target="_blank"
             rel="noreferrer"
           >
