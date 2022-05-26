@@ -14,7 +14,6 @@ export default function WeatherMain(props) {
       country: response.data.sys.country,
       weathertype: response.data.weather[0].description,
       date: new Date(response.data.dt * 1000),
-      feelslike: response.data.main.feels_like,
       humidity: response.data.main.humidity,
       windspeed: response.data.wind.speed,
       icon: response.data.weather[0].icon,

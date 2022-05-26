@@ -16,11 +16,6 @@ li {
   top: 30px;
 }
 
-.WeatherInfo #main-temp {
-  text-transform: capitalize;
-  font-size: 80px;
-}
-
 .WeatherInfo canvas {
   position: relative;
   left: 170px;
@@ -32,26 +27,6 @@ li {
   position: relative;
   bottom: -5px;
   font-size: 30px;
-}
-
-.WeatherInfo #celcius-temp {
-  font-size: 15px;
-  position: relative;
-  left: 10px;
-  bottom: 12px;
-  margin: 0 auto;
-  cursor: default;
-  color: #212529;
-}
-
-.WeatherInfo #fahrenheit-temp {
-  font-size: 15px;
-  position: relative;
-  bottom: 12px;
-  left: 15px;
-  margin: 0 auto;
-  cursor: default;
-  color: #212529;
 }
 
 .WeatherInfo #date-time {

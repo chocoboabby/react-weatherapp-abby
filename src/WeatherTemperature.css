@@ -1,0 +1,14 @@
+.WeatherTemperature .main-temp {
+  text-transform: capitalize;
+  font-size: 80px;
+}
+
+.WeatherTemperature .unit-temp {
+  font-size: 15px;
+  position: relative;
+  left: 10px;
+  bottom: 12px;
+  margin: 0 auto;
+  cursor: default;
+  color: #212529;
+}

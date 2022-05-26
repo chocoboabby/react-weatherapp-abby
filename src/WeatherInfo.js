@@ -1,7 +1,8 @@
 import React from "react";
 import DateFormat from "./DateFormat";
 import WeatherImages from "./WeatherImages";
-import WeatherTempConversion from "./WeatherTempConversion";
+import WeatherTemperature from "./WeatherTemperature";
+
 import "./WeatherInfo.css";
 
 export default function WeatherInfo(props) {
@@ -10,7 +11,8 @@ export default function WeatherInfo(props) {
       <div className="container">
         <div className="row">
           <div className="col-4">
-            <WeatherTempConversion celcius={props.data.temperature} />
+            <WeatherTemperature celsius={props.data.temperature} />
+
             <div className="float-left">
               <WeatherImages code={props.data.icon} />
             </div>
@@ -33,9 +35,6 @@ export default function WeatherInfo(props) {
           <div className="col-4"></div>
           <div className="col-8"></div>
           <ul id="weather-desc">
-            <li id="feelslike">
-              Feels like: {Math.round(props.data.feelslike)}°C
-            </li>
             <li id="humidity">Humidity: {props.data.humidity}%</li>
             <li id="windspeed">
               Wind Speed: {Math.round(props.data.windspeed)}km/h
