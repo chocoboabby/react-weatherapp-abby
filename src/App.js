@@ -19,7 +19,7 @@ export default function App() {
           >
             <small>Open source code</small>
           </a>{" "}
-          <small>by Abby Dela Fuente</small>
+          <small id="myName">by Abby Dela Fuente</small>
         </div>
       </div>
     </div>
