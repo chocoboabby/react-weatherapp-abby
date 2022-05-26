@@ -17,8 +17,8 @@ export default function WeatherMain(props) {
       feelslike: response.data.main.feels_like,
       humidity: response.data.main.humidity,
       windspeed: response.data.wind.speed,
-      icon: `https://s3.amazonaws.com/shecodesio-production/uploads/files/000/035/192/original/3050031.png?1653472780`,
-      icondescription: "",
+      icon: response.data.weather[0].icon,
+      icondescription: response.data.description,
     });
   }
 

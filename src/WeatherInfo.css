@@ -21,11 +21,10 @@ li {
   font-size: 80px;
 }
 
-.WeatherInfo #weather-icon {
+.WeatherInfo canvas {
   position: relative;
-  left: 160px;
-  bottom: 112px;
-  width: 100px;
+  left: 170px;
+  bottom: 100px;
 }
 
 .WeatherInfo #city-name {
@@ -62,7 +61,7 @@ li {
 .WeatherInfo #weather-desc {
   font-size: 20px;
   position: relative;
-  bottom: 90px;
+  bottom: 80px;
   left: 453px;
   margin: 0 auto;
 }
