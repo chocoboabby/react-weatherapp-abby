@@ -1,6 +1,7 @@
-import axios from "axios";
 import React, { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
+import WeatherDaily from "./WeatherDaily";
+import axios from "axios";
 import "./WeatherMain.css";
 
 export default function WeatherMain(props) {
@@ -54,6 +55,7 @@ export default function WeatherMain(props) {
           <i className="fa-solid fa-map-pin location-pin"></i>
         </form>
         <WeatherInfo data={weatherData} />
+        <WeatherDaily />
       </div>
     );
   } else {
