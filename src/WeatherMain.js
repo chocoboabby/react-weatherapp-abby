@@ -53,7 +53,6 @@ export default function WeatherMain(props) {
             value="Search"
             className="btn btn-outline-dark search-btn"
           />
-          <i className="fa-solid fa-map-pin location-pin"></i>
         </form>
         <WeatherInfo data={weatherData} />
         <WeatherDaily coordinates={weatherData.coordinates} />
